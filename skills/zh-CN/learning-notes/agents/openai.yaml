@@ -1,0 +1,4 @@
+interface:
+  display_name: "我的学习经历笔记"
+  short_description: "把真实学习经历整理成有个人思考、纠错证据和连贯主线的笔记"
+  default_prompt: "使用 $learning-notes，把本轮真实学习过程整理为我的笔记，保留思考和纠错痕迹，用一条主线串联知识点，避免重复和碎片化。"

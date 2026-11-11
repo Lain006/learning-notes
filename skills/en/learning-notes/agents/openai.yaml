@@ -1,0 +1,4 @@
+interface:
+  display_name: "My Learning Journey Notes"
+  short_description: "Real learning journeys, connected notes, honest corrections"
+  default_prompt: "Use $learning-notes to organize this learning session into my notes, preserving real questions and corrections while connecting topics through one coherent journey without repetition."
