@@ -62,6 +62,22 @@ Use brief natural transitions, not mandatory headings matching these labels. Lin
 - Explain with one familiar example that progresses step by step. If a diagram already clarifies locations, add guidance on reading it rather than a table repeating every detail.
 - Collapse or attach long original answers, full exercises, and diagnostic output where useful. Do not hide limitations needed for correct interpretation.
 
+## Make corrections understandable without the original chat
+
+The following is a fictional structural example, not any user's actual answer. It illustrates how much context to retain without requiring identical headings in every note.
+
+"I used result but should call the function directly" is insufficient for review. The reader cannot tell what the function originally did, how the requirement changed, or why result is inappropriate. Instead:
+
+> **Task and given code:** The original function fragment is `int twice(int n) { return 2 * n; }`. Keep the integer parameter, but change the function to print twice its value internally without returning a value, then write the call in main with input 6.
+>
+> **Illustrative answer and error:** The function has been changed to `void twice(int n) { printf("%d\n", 2 * n); }`, but the call still reads `int result = twice(6);`. Printing inside the function provides no return value with which to initialize result; the call must change too.
+>
+> **Correction:** Write `twice(6);` inside main. The function prints 12 internally. These are function-definition and call fragments, not a complete standalone program.
+>
+> **Follow-up evidence:** If the actual record shows only a correct call with hints, report that limit. If a later independent attempt fails, retain it too rather than selecting only the successful attempt.
+
+Long code or a whole test may be collapsed, attached, or filed in a topic note. Keep the task's meaning and key conditions beside the correction, with a precise link to the complete record. Mark missing original exercises explicitly. Supplementary examples explain a rule; they must not become invented experiences.
+
 ## Reorganize material that is good but scattered
 
 1. Find the real question these notes jointly serve. Keep unrelated questions as branches rather than forcing connections.

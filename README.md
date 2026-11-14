@@ -26,7 +26,7 @@ The narrative connects these steps. Topic notes provide depth only where needed.
 
 - **Real experiences:** verifiable words and actions, without invented emotions, progress, dates, or scores.
 - **Personal recall:** recognizable questions and familiar examples, with first-person wording grounded in evidence.
-- **Visible corrections:** original misconceptions marked in red, with explicit labels and nearby corrections.
+- **Reviewable corrections:** retain the original task and key conditions, the learner's answer, the error and correction, and recorded follow-up practice. Mark original misconceptions in red with explicit labels; distinguish missing source material from supplementary examples.
 - **Connected notes:** causal transitions, appropriate prerequisites, and one canonical home for each full explanation.
 - **Useful diagrams:** clarify distinctions such as location versus content or inputs versus return values; label assumptions.
 - **Honest learning status:** distinguish recognizing an answer, filling blanks, writing independently, and testing it yourself.
@@ -43,7 +43,7 @@ Both variants implement the same method and use the same skill name, `learning-n
 | Simplified Chinese | [skills/zh-CN/learning-notes](skills/zh-CN/learning-notes) |
 | English | [skills/en/learning-notes](skills/en/learning-notes) |
 
-Each folder contains its own `SKILL.md`, UI metadata, and supporting reference and can be installed independently. The English variant is a translation of the Chinese source, version 0.1.0.
+Each folder contains its own `SKILL.md`, UI metadata, and supporting reference and can be installed independently. The English variant is a translation of the Chinese source, version 0.1.1.
 
 ## Install
 
