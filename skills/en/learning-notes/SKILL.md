@@ -2,7 +2,7 @@
 name: learning-notes
 description: "Turn real learning conversations, exercises, and practical records into learner-centered notes. Preserve questions, misconceptions, corrections, and verification evidence, connecting topics through a coherent learning journey. Use for personal learning notes, reflection, and incremental updates; do not turn ordinary textbook summaries into invented personal experiences."
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
 ---
 
 # My Learning Journey Notes
@@ -49,6 +49,9 @@ A meaningful turning point often includes: the original idea → the precise err
 
 ## 4. Use familiar scenarios and diagrams to make abstractions concrete
 
+- When a beginner says they still do not understand, identify the missing prerequisite in the explanation, especially abbreviated terms and different roles within one statement. Rephrasing the conclusion alone is insufficient. For example, expand "a void call" to "a call to a function that returns no value," then distinguish arguments passed in, return values, and screen output. Do not attribute confusion caused by an abbreviated explanation directly to an incorrect answer by the learner.
+- Match the level of detail to the gap: answer the original question in everyday language, unpack key symbols or terms, trace execution and data flow through the same minimal example, then return to precise terminology. Do not impose a long template on every concept.
+- Map analogies explicitly to the objects and actions in the code, return to the code afterward, and state boundaries that could mislead. For example, returning no value must not be described as returning 0 or some "empty value"; resuming execution at the call site does not mean returning a value. When the learner provides another explanation that helped, extract the useful method and check its accuracy rather than copying its oversimplifications.
 - Prefer the same problem scenario already used by the learner or teacher. Change one requirement or concept at a time. Do not switch scenarios when doing so adds cognitive load.
 - Make each diagram answer a specific confusion: location versus content, input versus return, changing a variable versus changing its target, or what changes between steps. Label variables, values, addresses, arrows, and necessary assumptions; attractive boxes alone are insufficient.
 - For state changes, keep the layout consistent before and after, identifying what changes and what remains unchanged. State the limits of analogies; do not imply nonexistent memory layouts or physical proportions.
@@ -62,7 +65,7 @@ Do not assess completeness alone; check whether the narrative can be followed:
 1. Can a reader quickly identify the starting point, main turning points, and current state? Is it clear why each major section appears where it does?
 2. Can the learner find a topic using the question they remember asking? Does every new topic have an entrance and a way back?
 3. Are full explanations or code repeated, branches excessive, or sections present only to satisfy a template? Consolidate repetition and link to the canonical explanation.
-4. Without opening the original chat, can a reader use the detailed correction and its explicitly linked material to tell what the task was, how I answered, what went wrong, why the correction works, and what was subsequently verified? Are mistakes clearly marked and corrected nearby? Are unresolved or deferred topics honestly retained? Are technical explanations and analogies accurate?
+4. Without opening the original chat, can a reader use the detailed correction and its explicitly linked material to tell what the task was, how I answered, what went wrong, why the correction works, and what was subsequently verified? Are mistakes clearly marked and corrected nearby? Are unresolved or deferred topics honestly retained? Are terms that confused the beginner unpacked, can analogies be mapped back to the code, and are prerequisite steps explained? Are technical explanations and analogies accurate?
 5. Do links, heading anchors, image paths, and rendering work? When possible, inspect the actual reading view, especially red text, code, tables, and diagrams. Do not install plugins or change global appearance merely to check layout.
 6. Verify complete code, calculations, or testable claims proportionately. Label intentionally incorrect examples and fragments that cannot run alone. State the boundary between automated checks and the learner's own work.
 
