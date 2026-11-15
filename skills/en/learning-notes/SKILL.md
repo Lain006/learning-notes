@@ -2,7 +2,7 @@
 name: learning-notes
 description: "Turn real learning conversations, exercises, and practical records into learner-centered notes. Preserve questions, misconceptions, corrections, and verification evidence, connecting topics through a coherent learning journey. Use for personal learning notes, reflection, and incremental updates; do not turn ordinary textbook summaries into invented personal experiences."
 metadata:
-  version: "0.1.2"
+  version: "0.1.3"
 ---
 
 # My Learning Journey Notes
@@ -56,6 +56,7 @@ A meaningful turning point often includes: the original idea → the precise err
 - Make each diagram answer a specific confusion: location versus content, input versus return, changing a variable versus changing its target, or what changes between steps. Label variables, values, addresses, arrows, and necessary assumptions; attractive boxes alone are insufficient.
 - For state changes, keep the layout consistent before and after, identifying what changes and what remains unchanged. State the limits of analogies; do not imply nonexistent memory layouts or physical proportions.
 - Choose a format the destination can actually render. Use text diagrams for simple relationships and supported diagrams or local images for more involved ones. Store images in the knowledge base's durable attachment directory and embed them, rather than referencing only temporary files.
+- When the text refers to a slide screenshot, exercise image, operation screen, or run screenshot as the basis for an explanation, archive the available original in the knowledge base's durable attachment directory and embed it beside the explanation or correction. Briefly identify its source, what to look at, and relevant limits; a transcription or an unfulfilled reference to a screenshot is insufficient. Distinguish original images from organizer-created diagrams. Preserve errors, existing crops, and simplifications in the original, placing corrections nearby; never present a redrawn diagram as source material. Store each original once and link summaries to its canonical explanation. If the original is unavailable, state the gap rather than claiming recovery or substituting a screenshot of the current notes. During incremental checks, cover all such references within the authorized scope, not only the one the user pointed out.
 - Put a short conclusion beside each figure. Tables and checklists may aid lookup, but should not repeat the entire explanation. Omit visuals that do not reduce the effort of understanding.
 
 ## 5. Check structure and facts before delivery
@@ -66,7 +67,7 @@ Do not assess completeness alone; check whether the narrative can be followed:
 2. Can the learner find a topic using the question they remember asking? Does every new topic have an entrance and a way back?
 3. Are full explanations or code repeated, branches excessive, or sections present only to satisfy a template? Consolidate repetition and link to the canonical explanation.
 4. Without opening the original chat, can a reader use the detailed correction and its explicitly linked material to tell what the task was, how I answered, what went wrong, why the correction works, and what was subsequently verified? Are mistakes clearly marked and corrected nearby? Are unresolved or deferred topics honestly retained? Are terms that confused the beginner unpacked, can analogies be mapped back to the code, and are prerequisite steps explained? Are technical explanations and analogies accurate?
-5. Do links, heading anchors, image paths, and rendering work? When possible, inspect the actual reading view, especially red text, code, tables, and diagrams. Do not install plugins or change global appearance merely to check layout.
+5. Do links, heading anchors, image paths, and rendering work? Are referenced original screenshots embedded in the relevant explanation, or explicitly marked as missing? When possible, inspect the actual reading view, especially red text, code, tables, and diagrams. Do not install plugins or change global appearance merely to check layout.
 6. Verify complete code, calculations, or testable claims proportionately. Label intentionally incorrect examples and fragments that cannot run alone. State the boundary between automated checks and the learner's own work.
 
 Finish with a concise entry link, filing location, meaningful verification, and remaining gaps. Respect existing naming conventions. Do not automatically create MEMORY.md or treat note organization as permission to write global memories.
