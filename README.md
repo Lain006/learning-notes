@@ -30,7 +30,7 @@ The narrative connects these steps. Topic notes provide depth only where needed.
 - **Connected notes:** causal transitions, appropriate prerequisites, and one canonical home for each full explanation.
 - **Beginner-friendly explanations:** unpack abbreviated terms, explain missing steps, and map everyday analogies back to the code with clear limits.
 - **Reviewable source images:** embed original slides, exercise images, operation screens, and run screenshots beside their explanations, with relevant details and limits. Mark missing originals; distinguish supplementary diagrams from source material.
-- **Useful diagrams:** clarify distinctions such as location versus content or inputs versus return values; label assumptions.
+- **Useful diagrams:** clarify distinctions such as location versus content or inputs versus return values; label assumptions and check every arrow's endpoints and direction without relying on fragile character-column alignment.
 - **Honest learning status:** distinguish recognizing an answer, filling blanks, writing independently, and testing it yourself.
 - **Appropriate filing:** prerequisites belong in foundations, linked from the main subject.
 
@@ -45,7 +45,7 @@ Both variants implement the same method and use the same skill name, `learning-n
 | Simplified Chinese | [skills/zh-CN/learning-notes](skills/zh-CN/learning-notes) |
 | English | [skills/en/learning-notes](skills/en/learning-notes) |
 
-Each folder contains its own `SKILL.md`, UI metadata, and supporting reference and can be installed independently. The English variant is a translation of the Chinese source, version 0.1.3.
+Each folder contains its own `SKILL.md`, UI metadata, and supporting reference and can be installed independently. The English variant is a translation of the Chinese source, version 0.1.4.
 
 ## Install
 
